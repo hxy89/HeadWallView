@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.zh.headwalll.view.HeadWallView
+        android:id="@+id/sv_headers"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:background="@color/colorPrimary" />
+
+    <com.zh.headwalll.view.HeadWallView
+        android:id="@+id/sv_headers2"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:layout_below="@id/sv_headers"
+        android:layout_marginTop="50dip"
+        android:background="@color/colorPrimary" />
+
+
+</RelativeLayout>
